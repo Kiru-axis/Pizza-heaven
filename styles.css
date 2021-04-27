@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("./Images/ivan-torres-MQUqbmszGGM-unsplash.jpg"),
+    radial-gradient(rgba(248, 7, 7, 0.918), rgb(255, 255, 255));
+  background-position: center;
+  background-size: cover;
+}
