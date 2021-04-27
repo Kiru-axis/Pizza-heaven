@@ -15,3 +15,14 @@ body {
   background-blend-mode: multiply;
   font-style: oblique;
 }
+.block {
+  background-image: url("./Images/likemeat-CbNAuxSZTFo-unsplash.jpg"),
+    url("./Images/shreshth-gupta-f_7ZvWLP8UM-unsplash.jpg"),
+    radial-gradient(rgba(248, 7, 7, 0.918), rgb(255, 255, 255));
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+.foot {
+  background-color: rgba(0, 0, 0, 0.6);
+}
