@@ -1,4 +1,9 @@
 "use strict";
+$(".block").hide()
+$(".order").click(function (){
+  $(".block").show()
+ 
+})
 $(document).ready(function () {
   $("form").submit(function (event) {
     event.preventDefault();
