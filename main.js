@@ -22,3 +22,11 @@ $(document).ready(function () {
       let pizzaNumber = document.getElementById("number").value;
       return parseInt(pizzaNumber);
     }
+
+    function Order(flavor, size, crust, topping, number) {
+      this.newFlavor = flavor;
+      this.newSize = size;
+      this.newCrust = crust;
+      this.newTopping = topping;
+      this.newQuantity = number;
+    }
