@@ -7,3 +7,11 @@ body {
   background-position: center;
   background-size: cover;
 }
+.primary-header {
+  background-image: url("./Images/likemeat-CbNAuxSZTFo-unsplash.jpg"),
+    radial-gradient(rgba(248, 7, 7, 0.918), rgb(255, 255, 255));
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  font-style: oblique;
+}
