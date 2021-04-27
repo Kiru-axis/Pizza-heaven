@@ -40,8 +40,8 @@ $(document).ready(function () {
         userInput.newFlavor) *
       userInput.newQuantity;
 
-    let customerName = prompt("Entet your name");
-    let phoneNumber = Number(prompt("Enter your phone number"));
+    let customerName = prompt("Enter your name");
+    let phoneNumber = prompt("Enter your phone number");
     let location = prompt("Enter your location");
     let newCost = totalCost + 200;
     let newCustomerName = customerName.toUpperCase();

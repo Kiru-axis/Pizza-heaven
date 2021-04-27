@@ -7,6 +7,11 @@ body {
   background-position: center;
   background-size: cover;
 }
+nav ul{
+  display: inline-flex;
+}
+
+
 .primary-header {
   background-image: url("./Images/likemeat-CbNAuxSZTFo-unsplash.jpg"),
     radial-gradient(rgba(248, 7, 7, 0.918), rgb(255, 255, 255));
