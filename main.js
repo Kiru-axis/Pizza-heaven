@@ -30,3 +30,17 @@ $(document).ready(function () {
       this.newTopping = topping;
       this.newQuantity = number;
     }
+
+    let userInput = new Order(flavor(), size(), crust(), topping(), number());
+
+    let totalCost =
+      (userInput.newSize +
+        userInput.newCrust +
+        userInput.newTopping +
+        userInput.newFlavor) *
+      userInput.newQuantity;
+
+    let customerName = prompt("Entet your name");
+    let phoneNumber = Number(prompt("Enter your phone number"));
+    let location = prompt("Enter your location");
+    let newCost = totalCost + 200;
